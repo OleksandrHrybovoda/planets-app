@@ -11,6 +11,7 @@ import { MatTableModule } from '@angular/material/table';
 import { PlanetDialogComponent } from './components/planet-dialog/planet-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, PlanetDialogComponent],
@@ -21,6 +22,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatSelectModule,
     HttpClientModule,
     MatDialogModule,
+    FormsModule,
     MatTableModule,
     MatSnackBarModule,
     BrowserAnimationsModule,

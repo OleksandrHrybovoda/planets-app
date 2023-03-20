@@ -13,6 +13,7 @@ import { PlanetDialogComponent } from './components/planet-dialog/planet-dialog.
 })
 export class AppComponent implements OnInit, OnDestroy {
   planets: Planet[] = [];
+  activePlanet!: Planet | undefined;
   displayedColumns: string[] = ['name', 'diameter', 'climate', 'population'];
 
   private readonly destroy$ = new Subject();
@@ -47,6 +48,7 @@ export class AppComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe((response) => {
         this.planets = this.planetsHelperService.setPlanetIds(response.results);
+        this.activePlanet = this.planets.length ? this.planets[0] : undefined;
       });
   }
 }
