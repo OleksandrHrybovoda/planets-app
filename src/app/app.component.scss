@@ -1,0 +1,16 @@
+@import "../assets/scss/tokens.scss";
+
+.planets {
+  margin: $spacing-size-xl;
+
+  &__title {
+    margin-bottom: $spacing-size-xl;
+  }
+
+  &__table-row {
+    cursor: pointer;
+    &:hover {
+      background-color: $gray !important;
+    }
+  }
+}

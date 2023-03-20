@@ -1,0 +1,97 @@
+// ********** Border Radiuses **********
+
+$border-radius-none: 0;
+$border-radius-sm: 0.25rem; // 4px
+$border-radius-md: 0.5rem; // 8px
+$border-radius-lg: 0.75rem; // 12px
+$border-radius-xl: 1rem; // 16px
+$border-radius-xll: 2rem; // 32px
+$border-radius-pill: 10rem; // 160px
+$border-radius-circle: 50%;
+
+// ********** Colors **********
+
+$primary-white: #fff;
+$primary-black: #000;
+$primary: #673ab7;
+$gray: #eeeeee;
+
+// ********** Fonts **********
+
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+$font-size-xxs: 0.75rem; // 12px
+$font-size-xs: 0.875rem; // 14px
+$font-size-sm: 1rem; // 16px
+$font-size-m: 1.125rem; // 18px
+$font-size-md: 1.25rem; // 20px
+$font-size-lg: 1.5rem; // 24px
+$font-size-xl: 2rem; // 32px
+$font-size-xxl: 3rem; // 48px
+
+$font-weight-xs: 300;
+$font-weight-sm: 400;
+$font-weight-md: 500;
+$font-weight-lg: 700;
+
+// ********** Media queries **********
+
+$media-queries-xxs: 20rem; // 320px
+$media-queries-xs: 30rem; // 480px
+$media-queries-sm: 48rem; // 768px
+$media-queries-md: 62rem; // 992px
+$media-queries-lg: 75rem; // 1200px
+$media-queries-xl: 90rem; // 1440px
+
+$media-queries-light-mode: light;
+$media-queries-dark-mode: dark;
+
+$media-queries-print: print;
+
+// ********** Shadows **********
+
+$shadow-none: none;
+$shadow-outline: 0 0 0 2px rgba(0, 0, 0, 0.5);
+$shadow-inner: inset 1px 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-xs: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$shadow-sm: 0 3px 5px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.12);
+$shadow-md: 0 10px 20px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 15px 25px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+
+// ********** Spacings **********
+
+$spacing-size-auto: auto;
+$spacing-size-none: 0;
+$spacing-size-xxxs: 0.0625rem; // 1px
+$spacing-size-xxs: 0.125rem; // 2px
+$spacing-size-xs: 0.25rem; // 4px
+$spacing-size-sm: 0.5rem; // 8px
+$spacing-size-md: 0.75rem; // 12px
+$spacing-size-lg: 1rem; // 16px
+$spacing-size-xl: 1.25rem; // 20px
+$spacing-size-xxl: 1.5rem; // 24px
+$spacing-size-xxxl: 2rem; // 32px
+
+// ********** Transitions **********
+
+$transition-xslow: 2s;
+$transition-slow: 1s;
+$transition-med: 0.5s;
+$transition-fast: 0.3s;
+$transition-xxfast: 0.25s;
+$transition-xfast: 0.1s;
+$transition-none: 0s;
+
+// ********** Z-Indexes **********
+
+$z-index-sub: -1;
+$z-index-none: 0;
+$z-index-xxs: 1;
+$z-index-xs: 10;
+$z-index-sm: 50;
+$z-index-md: 100;
+$z-index-lg: 200;
+$z-index-xl: 500;
+$z-index-trump: 99999;

@@ -1,0 +1,17 @@
+<mat-dialog-content class="planet-dialog">
+  <h1 class="planet-dialog__title">Planet {{ planet?.name }}</h1>
+  <ul class="planet-dialog__residents">
+    <li
+      class="planet-dialog__resident"
+      *ngFor="let resident of residents; trackBy: trackByFn"
+    >
+      <p>
+        {{ resident.name }}, {{ resident.height }}, {{ resident.birth_year }},
+        {{ resident.gender }}
+      </p>
+    </li>
+  </ul>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-raised-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
